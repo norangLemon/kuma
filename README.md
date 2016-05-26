@@ -1,7 +1,12 @@
 곰연시
 =========
 
-### Dependancy
+## Dependancy Installation
+
+### [platformio](http://docs.platformio.org/)
+
+
+### React-Native
 
 ```
 brew install watchman
@@ -27,4 +32,22 @@ brew install flow
     ```
 
 
+#### react-native-cli
+```
+npm install -g react-navive-cli
+```
 
+## 시작하기
+
+### PlatformIo
+* init
+    ```
+    platformio init
+    ```
+
+### React-Native
+
+[참고링크](https://realm.io/kr/news/react-native/)
+```
+react-native init [프로젝트명]
+```
