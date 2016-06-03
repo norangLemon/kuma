@@ -15,13 +15,13 @@ void loop() {
 int x = 0;
 
 void setup() {
-    pinMode(8, INPUT);
+    pinMode(A5, INPUT);
     Serial.begin(9600);
 }
 
 void loop() {
   // print labels
-    int val = digitalRead(8);
+    int val = analogRead(A5);
     Serial.println(val);
     delay(20);
 }
